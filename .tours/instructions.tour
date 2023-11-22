@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "instructions",
+  "steps": [
+    {
+      "file": "index.js",
+      "description": "Vous devez créer deux variables : firstName et age.\nL'instanciation de ces variables provient de la saisie utilisateur depuis l'application web. \n\nPour ce faire : \n\n- logguer les variables inputFirstName et inputAge\n- deviner leur type\n- observer la propriété value \n\nNous souhaitons formatter ces variables suivant ce schéma :\n\n- le prénom de l'utilisateur doit démarrer par une majuscule et dépourvus d'espaces en début et fin de saisie\n- l'âge de l'utilisateur doit être un Number\n",
+      "line": 15
+    },
+    {
+      "file": "index.js",
+      "description": "La variables hobbies représente le choix de l'utilisateur lors de la sélection des hobbies dans l'application web au sein de la dropdown-list.\n\nVous devez créer deux variables : hobbiesOne et hobbiesTwo. Pour ce faire :\n\n- logguer hobbies\n- deviner son type\n- hobbiesOne contiendra le premier hobby choisi tandis que hobbiesTwo doit contenir le deuxième hobby",
+      "line": 17
+    },
+    {
+      "file": "index.js",
+      "description": "Vous avez deux variables qui valent null : friendName et condition. Il faut changer la valeur de ces deux variables.\nPour friendName, vous devez récupérer la saisie de l'utilisateur côté application web. Pour ce faire :\n- inspecter l'objet event et plus particulièrement sa propriété target\n\nPour condition, cette variable doit être un booléan représentant la vérification de si la chaine de caractère friendsName dépasse ou non 3 lettres.\n\nVous devez utiliser l'opérateur plus grand que : ```>```",
+      "line": 28
+    },
+    {
+      "file": "index.js",
+      "description": "Nous sommes ici dans un if-statement. Lorsque la condition est évaluée à true, nous souhaitons activer le bouton \"Ajouter un ami\" pour qu'il soit de nouveau cliquable. Il est pour l'instant en mode \"disable\"\n\nVous devez modifier le code présent dans le bloc if et rajouter un bloc else.\n\nPour ce faire,  vous devez faire plusieurs choses :\n\n- dans le bloc if : modifier la valeur de la propriété disabled telle que le bouton s'active\n\n- dans le bloc else : modifier la valeur de la propriété disabled telle que le bouton se désactive\n\nA savoir : la propriété disabled désactive la bouton si sa valeur est true, elle active le bouton pour toute autre valeur.",
+      "line": 32
+    },
+    {
+      "file": "index.js",
+      "description": "En L28, vous avez un tableau nommé friends. Ce tableau contient les amis que l'utilisateur a rentré dans la barre de texte une fois que le bouton \"Ajouter un ami\" a été pressé.\n\nLa variable friendName déclarée plus haut contient déjà l'ami à insérer dans le tableau. Vous pouvez le logguer pour le vérifier.\nVous devez ici trouver la bonne méthode à appliquer sur friends pour ajouter friend.\n\n  ",
+      "line": 38
+    },
+    {
+      "file": "index.js",
+      "description": "Inspecter la propriété dataset de e.target et créer une variable pour récupérer l'ami à supprimer",
+      "line": 44
+    },
+    {
+      "file": "index.js",
+      "description": "Nous devons maintenant supprimer notre ami encore présent dans le tableau friends.Pour ce faire :\n\n- aller sur mdn et regarder la built-in méthode \"filter\" \n- appliquer cette méthode à notre tableau friends\n- la méthode filter prends un argument une fonction. A chaque tour de boucle, il faut renvoyer un boolean :\n * true ==> l'élement courant est conservé dans le tableau de sortie\n * false ==> l'élément courant n'est pas conservé.\n\n La sortie de filter sera enregistrée dans une variable. Puis vous devez envoyer cette variable dans displayFriends afin d'actualiser la liste des amis dans l'application web.",
+      "line": 44,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 176
+        }
+      }
+    }
+  ]
+}
